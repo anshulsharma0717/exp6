@@ -1,78 +1,84 @@
 # fsexp6
-Name: Sujal Gulati
-UID: 24BDA70318
+
+## Student Details
+
+- **Name:** Anshul Sharma
+- **UID:** 24BDA70368
+- **Group:** 24BDS-3(B)
+
+---
+
+## Title
+**Experiment 2 – Product Card Component, Library Management UI & Person Class Hierarchy**
+
+---
+
+## Defined Approach
+
+In this experiment, three interactive applications were developed using React.js, JavaScript, HTML, and CSS to understand component-based architecture, state management, and dynamic UI updates.
+
+---
 
 ## Experiments Overview
 
-### Exp 2.2.1 - Middleware Experiment
-Node.js + Express API with authentication and error handling middleware.
-
-**Requirements:**
-- Node.js >= 14.x
-- MongoDB
-
-**Dependencies:**
-| Package | Version |
-|---|---|
-| express | ^4.18.2 |
-| mongoose | ^8.0.0 |
-| bcrypt | ^5.1.0 |
-| jsonwebtoken | ^9.0.2 |
-| dotenv | ^16.4.0 |
-| nodemon (dev) | ^3.0.0 |
+### Exp 2.1 – Product Card Component
+- Built reusable React components
+- Used props to pass product details
+- Implemented conditional rendering for stock status
+- Applied dynamic styling
 
 ---
 
-### Exp 2.2.2 - JWT Authentication Banking API
-JWT-based authentication for a banking API using Node.js, Express, and MongoDB.
-
-**Requirements:**
-- Node.js >= 14.x
-- MongoDB
-
-**Dependencies:**
-| Package | Version |
-|---|---|
-| express | ^4.19.2 |
-| mongoose | ^8.5.0 |
-| bcryptjs | ^2.4.3 |
-| jsonwebtoken | ^9.0.2 |
-| dotenv | ^16.4.5 |
-| cors | ^2.8.5 |
-| nodemon (dev) | ^3.1.0 |
+### Exp 2.2 – Library Management System
+- Used `useState` for state management
+- Implemented add/remove book functionality
+- Handled user input with forms
+- Real-time UI updates
 
 ---
 
-### Exp 2.2.3 - Transaction System
-A transaction management system with a frontend UI.
+### Exp 2.3 – Person Class Hierarchy
+- Implemented OOP using JavaScript classes
+- Created `Person`, `Student`, `Teacher` classes
+- Used inheritance and methods
+- Displayed data using React components
 
-**Requirements:**
+---
+
+## Requirements
 - Node.js >= 14.x
-- MongoDB
+- npm >= 6.x
 
-**Dependencies:**
+## Dependencies
 | Package | Version |
 |---|---|
-| express | ^4.18.2 |
-| mongoose | ^8.0.0 |
-| body-parser | ^1.20.2 |
-| cors | ^2.8.5 |
-| nodemon (dev) | ^3.0.0 |
+| react | ^18.x |
+| react-dom | ^18.x |
+| react-scripts | ^5.x |
 
 ---
 
 ## Setup & Installation
 
 ```bash
-# Navigate to any experiment folder
-cd "Exp 2.2.1"
-
 # Install dependencies
 npm install
 
-# Start server
+# Start development server
 npm start
 
-# Development mode (with auto-reload)
-npm run dev
+# Build for production
+npm run build
 ```
+
+---
+
+## Conclusion
+
+This experiment improved understanding of:
+- React components and props
+- State management using hooks
+- Conditional rendering
+- JavaScript OOP concepts
+
+It demonstrated how dynamic and interactive UIs can be built efficiently using React.
