@@ -2,7 +2,7 @@
 
 ## Student Details
 
-- **Name: Anshul Sharma
+- Name: Anshul Sharma
 - **UID:** 24BDA70368
 - **Group:** 24BDS-3(B)
 
